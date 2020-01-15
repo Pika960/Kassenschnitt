@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kassenschnitt</string>
+    <string name="app_version">Version 2.0.0</string>
+
+    <string name="action_about">Über</string>
+    <string name="action_add_item">Eintrag hinzufügen</string>
+    <string name="action_best_in_year">Jahresstatistik</string>
+    <string name="action_calc_all_months">Gesamtbilanz</string>
+    <string name="action_calc_specific_month">Monatsbilanz</string>
+    <string name="action_calc_specific_year">Jahresbilanz</string>
+    <string name="action_changelog">Änderungshistorie</string>
+    <string name="action_change_orientation">Bildschirm drehen</string>
+    
+    <string name="button_negative">Zurück</string>
+    <string name="button_positive">Okay</string>
+
+    <string name="cab_change">Eintrag ändern</string>
+    <string name="cab_checked_string">ausgewählt</string>
+    <string name="cab_delete">Einträge löschen</string>
+
+    <string name="company_name">Gabriel Daenner Medien</string>
+
+    <string name="confirmation_1">Sicher, dass\u0020</string>
+    <string name="confirmation_2">\u0020Element(e) gelöscht werden sollen?</string>
+
+    <string name="copyright_info">© 2018-2020</string>
+
+    <string name="dialog_add_item">Eintrag hinzufügen</string>
+    <string name="dialog_edit_item">Eintrag ändern</string>
+    <string name="dialog_search">Suche nach</string>
+
+    <string name="error_dennis_nedry">Ah ah ah, du hast das Zauberwort nicht gesagt!\n\n[Verarbeitung der Argumente nicht möglich]</string>
+    <string name="error_elements_missing">Eines oder mehrere Felder enthalten keinen Text.\nKeine Änderung an Datenbank vorgenommen.</string>
+    <string name="error_empty_search">Kein Text im Suchfeld vorhanden.\nSuchoperation abgebrochen.</string>
+
+    <string name="month_january">Januar</string>
+    <string name="month_february">Februar</string>
+    <string name="month_march">März</string>
+    <string name="month_april">April</string>
+    <string name="month_may">Mai</string>
+    <string name="month_june">Juni</string>
+    <string name="month_july">Juli</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">Oktober</string>
+    <string name="month_november">November</string>
+    <string name="month_december">Dezember</string>
+
+    <string name="msg_changelog">Änderungshistorie</string>
+    <string name="msg_confirmation">Bestätigung</string>
+    <string name="msg_error">Fehler</string>
+    <string name="msg_result">Ergebnis</string>
+    <string name="msg_statistics">Statistik</string>
+
+    <string name="resource_day">Tag:</string>
+    <string name="resource_money">Geld:</string>
+    <string name="resource_month">Monat:</string>
+    <string name="resource_weekday">W.tag:</string>
+    <string name="resource_year">Jahr:</string>
+
+    <string name="result_average">Durchschnitt</string>
+    <string name="result_complete_1">Es wurden seit Anlegung der Daten (</string>
+    <string name="result_complete_2">\u0020Tage)</string>
+    <string name="result_complete_3">\u0020Euro erwirtschaftet.</string>
+    <string name="result_currency">€</string>
+    <string name="result_month_1">Es wurden bis jetzt (</string>
+    <string name="result_month_2">\u0020Tage)</string>
+    <string name="result_month_3">\u0020Euro erwirtschaftet.</string>
+    <string name="result_statistics">Top-Tage des Jahres\u0020</string>
+    <string name="result_year_1">Es wurden in\u0020</string>
+    <string name="result_year_2">\u0020Tage)</string>
+    <string name="result_year_3">\u0020Euro erwirtschaftet.</string>
+    
+    <string name="weekday_monday">Montag</string>
+    <string name="weekday_tuesday">Dienstag</string>
+    <string name="weekday_wednesday">Mittwoch</string>
+    <string name="weekday_thursday">Donnerstag</string>
+    <string name="weekday_friday">Freitag</string>
+    <string name="weekday_saturday">Samstag</string>
+    <string name="weekday_sunday">Sonntag</string>
+
+    <string name="weekday_monday_short">Mo.</string>
+    <string name="weekday_tuesday_short">Di.</string>
+    <string name="weekday_wednesday_short">Mi.</string>
+    <string name="weekday_thursday_short">Do.</string>
+    <string name="weekday_friday_short">Fr.</string>
+    <string name="weekday_saturday_short">Sa.</string>
+    <string name="weekday_sunday_short">So.</string>
+</resources>
