@@ -1,12 +1,13 @@
 package de.gabrieldaennermedien.kassenschnitt;
 
 //imports
-import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
-
 import android.content.ContentValues;
+import android.content.Context;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Environment;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -36,9 +37,21 @@ class DataSource {
     /**
      * Constructor.
      * @param context the application context.
+     * @param external determine storage location.
      */
-    DataSource(Context context) {
-        dbHelper = new DbHelper(context);
+    @SuppressWarnings({"ConstantConditions", "deprecation"})
+    DataSource(Context context, boolean external) {
+        String location;
+
+        if (external) {
+            location = Environment.getExternalStorageDirectory() + File.separator + DbHelper.DB_DIR;
+        }
+
+        else {
+            location = context.getExternalFilesDir(null).toString();
+        }
+
+        dbHelper = new DbHelper(context, location);
     }
 
     /**

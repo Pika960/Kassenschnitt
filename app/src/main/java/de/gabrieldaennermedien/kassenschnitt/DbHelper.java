@@ -4,7 +4,6 @@ package de.gabrieldaennermedien.kassenschnitt;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
@@ -14,7 +13,6 @@ import java.io.File;
  */
 public class DbHelper extends SQLiteOpenHelper {
     //private static final instances
-    private static final String DB_DIR = "Kassenschnitt";
     private static final String DB_NAME = "data.db";
     private static final String LOG_TAG = DbHelper.class.getSimpleName();
 
@@ -27,6 +25,7 @@ public class DbHelper extends SQLiteOpenHelper {
     static final String COLUMN_MONEY   = "money";
     static final String COLUMN_WEEKDAY = "weekday";
     static final String COLUMN_YEAR    = "year";
+    static final String DB_DIR         = "Kassenschnitt";
     static final String TABLE_DATA     = "data";
 
     //the core sql statement which creates the database
@@ -38,11 +37,10 @@ public class DbHelper extends SQLiteOpenHelper {
     /**
      * Constructor.
      * @param context the application context.
+     * @param location the location where the database will be stored.
      */
-    @SuppressWarnings("deprecation")
-    DbHelper(Context context) {
-        super(context, Environment.getExternalStorageDirectory() + File.separator
-                + DB_DIR + File.separator + DB_NAME, null, DB_VERSION);
+    DbHelper(Context context, String location) {
+        super(context, location + File.separator + DB_NAME, null, DB_VERSION);
     }
 
     /**
