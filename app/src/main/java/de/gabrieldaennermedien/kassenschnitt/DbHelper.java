@@ -11,7 +11,7 @@ import java.io.File;
 /**
  * DbHelper is an extensions of SQLiteOpenHelper and creates the database.
  */
-public class DbHelper extends SQLiteOpenHelper {
+class DbHelper extends SQLiteOpenHelper {
     //private static final instances
     private static final String DB_NAME = "data.db";
     private static final String LOG_TAG = DbHelper.class.getSimpleName();

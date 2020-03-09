@@ -8,6 +8,7 @@ import android.content.Context;
  * App is a helper class which has the purpose to give non android classes access to the
  * application context.
  */
+@SuppressWarnings({"WeakerAccess", "RedundantSuppression"})
 public class App extends Application {
     //private static instances
     private static App mApp;

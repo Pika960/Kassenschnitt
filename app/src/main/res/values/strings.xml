@@ -9,7 +9,6 @@
     <string name="action_calc_all_months">Total balance</string>
     <string name="action_calc_specific_month">Monthly balance</string>
     <string name="action_calc_specific_year">Annual balance</string>
-    <string name="action_changelog">Changelog</string>
     <string name="action_change_orientation">Rotate screen</string>
     
     <string name="button_negative">Cancel</string>
@@ -47,7 +46,6 @@
     <string name="month_november">November</string>
     <string name="month_december">December</string>
 
-    <string name="msg_changelog">Changelog</string>
     <string name="msg_confirmation">Confirmation</string>
     <string name="msg_error">Error</string>
     <string name="msg_result">Result</string>

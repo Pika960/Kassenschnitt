@@ -3,15 +3,15 @@ package de.gabrieldaennermedien.kassenschnitt;
 //imports
 import androidx.annotation.NonNull;
 
-public class DbEntry {
+class DbEntry {
     //private instances
-    private String day;
-    private String year;
-    private String weekday;
+    private final String day;
+    private final String year;
+    private final String weekday;
 
     //private values
-    private double money;
-    private long   id;
+    private final double money;
+    private final long   id;
 
     /**
      * Constructor.

@@ -9,7 +9,6 @@
     <string name="action_calc_all_months">Gesamtbilanz</string>
     <string name="action_calc_specific_month">Monatsbilanz</string>
     <string name="action_calc_specific_year">Jahresbilanz</string>
-    <string name="action_changelog">Änderungshistorie</string>
     <string name="action_change_orientation">Bildschirm drehen</string>
     
     <string name="button_negative">Zurück</string>
@@ -47,7 +46,6 @@
     <string name="month_november">November</string>
     <string name="month_december">Dezember</string>
 
-    <string name="msg_changelog">Änderungshistorie</string>
     <string name="msg_confirmation">Bestätigung</string>
     <string name="msg_error">Fehler</string>
     <string name="msg_result">Ergebnis</string>

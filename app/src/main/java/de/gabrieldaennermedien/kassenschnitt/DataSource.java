@@ -16,12 +16,14 @@ import java.util.List;
  * DataSource manages the content/data of the database and provides methods to interact with it.
  */
 class DataSource {
+    //private final instances
+    private final DbHelper dbHelper;
+
     //private instances
-    private DbHelper       dbHelper;
     private SQLiteDatabase database;
 
     //private arrays
-    private String[] queries = {
+    private final String[] queries = {
             ("select * from " + DbHelper.TABLE_DATA),
             ("select sum(" + DbHelper.COLUMN_MONEY + "),count(" + DbHelper.COLUMN_MONEY + ") from "
                     + DbHelper.TABLE_DATA),
@@ -39,7 +41,7 @@ class DataSource {
      * @param context the application context.
      * @param external determine storage location.
      */
-    @SuppressWarnings({"ConstantConditions", "deprecation"})
+    @SuppressWarnings({"ConstantConditions", "deprecation", "RedundantSuppression"})
     DataSource(Context context, boolean external) {
         String location;
 

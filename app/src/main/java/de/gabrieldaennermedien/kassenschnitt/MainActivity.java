@@ -2,6 +2,7 @@ package de.gabrieldaennermedien.kassenschnitt;
 
 //imports
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
@@ -104,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * {@inheritDoc}
      */
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -157,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-        if(id == R.id.action_change_orentation) {
+        if(id == R.id.action_change_orientation) {
             final int orientation = getResources().getConfiguration().orientation;
 
             switch(orientation) {

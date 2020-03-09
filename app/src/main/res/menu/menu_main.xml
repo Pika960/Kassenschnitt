@@ -36,7 +36,7 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_change_orentation"
+        android:id="@+id/action_change_orientation"
         android:title="@string/action_change_orientation"
         android:orderInCategory="100"
         app:showAsAction="never" />

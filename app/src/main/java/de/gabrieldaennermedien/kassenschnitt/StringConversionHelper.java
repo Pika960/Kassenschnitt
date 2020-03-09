@@ -6,34 +6,34 @@ package de.gabrieldaennermedien.kassenschnitt;
  */
 class StringConversionHelper {
     //private static instances
-    private static String month_january   = App.getContext().getString(R.string.month_january);
-    private static String month_february  = App.getContext().getString(R.string.month_february);
-    private static String month_march     = App.getContext().getString(R.string.month_march);
-    private static String month_april     = App.getContext().getString(R.string.month_april);
-    private static String month_may       = App.getContext().getString(R.string.month_may);
-    private static String month_june      = App.getContext().getString(R.string.month_june);
-    private static String month_july      = App.getContext().getString(R.string.month_july);
-    private static String month_august    = App.getContext().getString(R.string.month_august);
-    private static String month_september = App.getContext().getString(R.string.month_september);
-    private static String month_october   = App.getContext().getString(R.string.month_october);
-    private static String month_november  = App.getContext().getString(R.string.month_november);
-    private static String month_december  = App.getContext().getString(R.string.month_december);
+    private static final String month_january   = App.getContext().getString(R.string.month_january);
+    private static final String month_february  = App.getContext().getString(R.string.month_february);
+    private static final String month_march     = App.getContext().getString(R.string.month_march);
+    private static final String month_april     = App.getContext().getString(R.string.month_april);
+    private static final String month_may       = App.getContext().getString(R.string.month_may);
+    private static final String month_june      = App.getContext().getString(R.string.month_june);
+    private static final String month_july      = App.getContext().getString(R.string.month_july);
+    private static final String month_august    = App.getContext().getString(R.string.month_august);
+    private static final String month_september = App.getContext().getString(R.string.month_september);
+    private static final String month_october   = App.getContext().getString(R.string.month_october);
+    private static final String month_november  = App.getContext().getString(R.string.month_november);
+    private static final String month_december  = App.getContext().getString(R.string.month_december);
 
-    private static String weekday_monday    = App.getContext().getString(R.string.weekday_monday);
-    private static String weekday_tuesday   = App.getContext().getString(R.string.weekday_tuesday);
-    private static String weekday_wednesday = App.getContext().getString(R.string.weekday_wednesday);
-    private static String weekday_thursday  = App.getContext().getString(R.string.weekday_thursday);
-    private static String weekday_friday    = App.getContext().getString(R.string.weekday_friday);
-    private static String weekday_saturday  = App.getContext().getString(R.string.weekday_saturday);
-    private static String weekday_sunday    = App.getContext().getString(R.string.weekday_sunday);
+    private static final String weekday_monday    = App.getContext().getString(R.string.weekday_monday);
+    private static final String weekday_tuesday   = App.getContext().getString(R.string.weekday_tuesday);
+    private static final String weekday_wednesday = App.getContext().getString(R.string.weekday_wednesday);
+    private static final String weekday_thursday  = App.getContext().getString(R.string.weekday_thursday);
+    private static final String weekday_friday    = App.getContext().getString(R.string.weekday_friday);
+    private static final String weekday_saturday  = App.getContext().getString(R.string.weekday_saturday);
+    private static final String weekday_sunday    = App.getContext().getString(R.string.weekday_sunday);
 
-    private static String weekday_monday_short    = App.getContext().getString(R.string.weekday_monday_short);
-    private static String weekday_tuesday_short   = App.getContext().getString(R.string.weekday_tuesday_short);
-    private static String weekday_wednesday_short = App.getContext().getString(R.string.weekday_wednesday_short);
-    private static String weekday_thursday_short  = App.getContext().getString(R.string.weekday_thursday_short);
-    private static String weekday_friday_short    = App.getContext().getString(R.string.weekday_friday_short);
-    private static String weekday_saturday_short  = App.getContext().getString(R.string.weekday_saturday_short);
-    private static String weekday_sunday_short    = App.getContext().getString(R.string.weekday_sunday_short);
+    private static final String weekday_monday_short    = App.getContext().getString(R.string.weekday_monday_short);
+    private static final String weekday_tuesday_short   = App.getContext().getString(R.string.weekday_tuesday_short);
+    private static final String weekday_wednesday_short = App.getContext().getString(R.string.weekday_wednesday_short);
+    private static final String weekday_thursday_short  = App.getContext().getString(R.string.weekday_thursday_short);
+    private static final String weekday_friday_short    = App.getContext().getString(R.string.weekday_friday_short);
+    private static final String weekday_saturday_short  = App.getContext().getString(R.string.weekday_saturday_short);
+    private static final String weekday_sunday_short    = App.getContext().getString(R.string.weekday_sunday_short);
 
     /**
      * monthToNumber converts the name of a month to the corresponding number.
