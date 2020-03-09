@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/resource_month"
+            android:text="@string/resource_query"
             android:layout_weight="1"
             android:gravity="end"
             android:layout_marginRight="5sp"

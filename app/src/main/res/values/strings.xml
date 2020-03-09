@@ -54,6 +54,7 @@
     <string name="resource_day">Day:</string>
     <string name="resource_money">Money:</string>
     <string name="resource_month">Month:</string>
+    <string name="resource_query">Query:</string>
     <string name="resource_weekday">W.day:</string>
     <string name="resource_year">Year:</string>
 

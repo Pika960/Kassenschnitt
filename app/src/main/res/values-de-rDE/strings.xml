@@ -54,6 +54,7 @@
     <string name="resource_day">Tag:</string>
     <string name="resource_money">Geld:</string>
     <string name="resource_month">Monat:</string>
+    <string name="resource_query">Abfrage:</string>
     <string name="resource_weekday">W.tag:</string>
     <string name="resource_year">Jahr:</string>
 
